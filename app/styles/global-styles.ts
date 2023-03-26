@@ -20,8 +20,8 @@ const GlobalStyles = createGlobalStyle`
   ${({ theme }) => css`
     body {
       overflow: auto;
-      font-family: ${theme.font.family};
-      background-color: ${theme.colors.secondaryWhite};
+      font-family: "'Open Sans', sans-serif";
+      background-color: #EEEAEA;
     }
   `}
 `;
