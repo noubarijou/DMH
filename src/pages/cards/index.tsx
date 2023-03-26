@@ -13,7 +13,7 @@ import { useGetCards } from 'hooks/useCards/useGetCards';
 import AddCard from 'layouts/AddCard';
 import nookies from 'nookies';
 
-import * as s from './cards.style';
+import * as s from './cards.styles';
 
 export async function getServerSideProps(ctx: GetServerSidePropsContext) {
   const { '@digitalmoney:token': token } = nookies.get(ctx);
