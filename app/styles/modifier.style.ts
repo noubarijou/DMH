@@ -10,15 +10,15 @@ export const ModifierSizeMediaQuery = {
   
     width: 18.5rem;
 
-    @media (min-width: ${theme.screen.mobile}) {
+    @media (min-width: 24.375rem) {
       width: 21rem;
     }
 
-    @media (min-width: ${theme.screen.tablet}) {
+    @media (min-width: 48rem) {
       width: 32rem;
     }
 
-    @media (min-width: ${theme.screen.desktopXL}) {
+    @media (min-width: 90rem) {
       width: 62.875rem;
     }
   `
