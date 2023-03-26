@@ -1,22 +1,29 @@
-import { createGlobalStyle, css } from 'styled-components';
+import {
+  createGlobalStyle,
+  GlobalStyleComponent,
+  css,
+} from 'styled-components';
+
+import reset from './reset';
 
 const GlobalStyles = createGlobalStyle`
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    font-family: ${(props) => props.theme.font.families.body};
-    &::before,
-    &::after { box-sizing: inherit; }
+  ${reset};
+
+  html,  body {
+    @media only screen and (max-width: 915px) {
+      //height: calc(140vh);
+    }
+    height: 100%;
+    font-family: 16px;
   }
-    ${({ theme }) => css`
-      body {
-        font-family: ${theme.font.families.body};
-        font-size: ${theme.font.sizes.md};
-      }
-    `}
+
+  ${({ theme }) => css`
+    body {
+      overflow: auto;
+      font-family: ${theme.font.family};
+      background-color: ${theme.colors.secondaryWhite};
+    }
+  `}
 `;
 
 export default GlobalStyles;
