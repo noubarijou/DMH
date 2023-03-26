@@ -11,10 +11,7 @@
     "test": "jest",
     "test:watch": "yarn test --watch",
     "test:generate-output": "jest --json --outputFile=.jest-test-results.json",
-    "prepare": "husky install",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
-    "generate": "yarn plop --plopfile generators/plopfile.js"
+    "prepare": "husky install"
   },
   "dependencies": {
     "@babel/preset-typescript": "^7.21.0",
