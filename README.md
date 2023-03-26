@@ -1,115 +1,38 @@
-# Template NextTS — TypeScript, Styled Components, Radix and Design Tokens
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-<img src="./public/assets/images/template-cover.png" />
+## Getting Started
 
----
-## Summary
+First, run the development server:
 
-  - [About this template](#about-this-template)
-  - [Avaliale scripts](#avaliale-scripts)
-    - [Other scripts available](#other-scripts-available)
-  - [Main technologies used](#main-technologies-used)
-    - [radix](#radix)
-    - [styled components](#styled components)
-    - [storybook](#storybook)
-    - [typescript](#typescript)
-  - [About me](#about-me)
-      - [#followMyWork](#followmywork)
-
-## About this template
-
-This project is a template for NextJS with TypeScript projects. This template was built with `create-next-app`, `typescript`, `styled components`, `@radix-ui` and `storybook`.
-
----
-
-## Avaliale scripts
-
-At first, in the project directory, you need run:
-
-```jsx
-// installing the dependencies
-yarn
-```
-
-### Other scripts available
-
-```jsx
-// run project on http://127.0.0.1:5173/
+```bash
+npm run dev
+# or
 yarn dev
+# or
+pnpm dev
 ```
 
-_Run the app in the development mode by opening [ http://localhost:3000/]( http://localhost:3000/) to view it in the browser. The page will reload if you make edits._
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-```jsx
-// build project
-yarn build
-```
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-```jsx
-// preview project
-yarn start
-```
-```jsx
-// runs the linter in all src/ files
-yarn lint
-```
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-```jsx
-// generate components quickly. e.g. to generate a <Button /> component, run:
-yarn generate button
-```
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-```jsx
-// run storybook on http://localhost:6006/
-yarn storybook
-```
-<img src="./public/assets/images/storybook.png" />
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-_Learn how to install `yarn` through the [official documentation](https://yarnpkg.com/)._
+## Learn More
 
----
+To learn more about Next.js, take a look at the following resources:
 
-## Main technologies used
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-- [x] NextJS
-- [x] TypeScript
-- [x] styled components
-- [x] Radix UI Colors
-- [x] Storybook
-- [x] ESLint
-- [x] Prettier
-- [x] Husky
-- [x] Commitlint
-- [x] Lint-staged
-- [x] Light / Dark theme
-- [x] Automated component creation
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
+## Deploy on Vercel
 
-### [radix colors](https://www.radix-ui.com/colors)
-> An open-source color system for designing beautiful, accessible websites and apps.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-### [styled components](https://styled components.dev/)
-> CSS-in-JS with near-zero runtime, SSR, multi-variant support, and a best-in-class developer experience.
-
-### [storybook](https://storybook.js.org/)
-> Storybook is a frontend workshop for building UI components and pages in isolation.
-
-### [typescript](https://www.typescriptlang.org/)
-> TypeScript is JavaScript with syntax for types.
-
----
-
-## About me
-
-I'm Diego Silva, Senior Frontend Developer at [Neon Bank](https://neon.com.br/) with focus on improving the Developer Experience and Community Manager at [@99juniors](https://github.com/99juniors).
-
----
-
-#### #followMyWork
-
-[![twitter](https://img.shields.io/badge/twitter-@diegosilvatech-00acee?style=for-the-badge&logo=twitter)](https://twitter.com/diegosilvatech)
-[![linkedin](https://img.shields.io/badge/linkedin-@diegosilvatech-0e76a8?style=for-the-badge&logo=linkedin&logoColor=%230e76a8)](https://linkedin.com/in/diegosilvatech)
-[![linktree](https://img.shields.io/badge/linktree-@diegosilvatech-11c76f?style=for-the-badge&logo=linktree)](https://linktr.ee/diegosilvatech)
-[![youtube](https://img.shields.io/badge/youtube-@diegosilvatech-cc0000?style=for-the-badge&logo=youtube&logoColor=%23cc0000)](https://www.youtube.com/channel/UCECVV8ODiaQtur7EyS73i1g/videos)
-[![twitch](https://img.shields.io/badge/twitch-@diegosilvatech-6441a5?style=for-the-badge&logo=twitch)](https://www.twitch.tv/diegosilvatech)
-[![community](https://img.shields.io/badge/community-@99juniors-5865f2?style=for-the-badge&logo=discord&logoColor=%235865f2)](https://discord.com/invite/P5YmPENeqd)
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
