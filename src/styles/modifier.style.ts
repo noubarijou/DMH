@@ -5,7 +5,6 @@ export type ModifierSizeMediaQueryProps = {
 };
 
 export const ModifierSizeMediaQuery = {
-  walletComponent: (theme: DefaultTheme) => css``,
   bigComponent: (theme: DefaultTheme) => css`
     width: 18.5rem;
 

@@ -209,12 +209,10 @@ export const ActivityValue = styled.div`
 `;
 
 export const LinkFullActivity = styled.div`
-  ${({ theme }) => css`
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 1.25rem;
-  `}
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1.25rem;
 `;
 
 export const FullActivityText = styled.p`

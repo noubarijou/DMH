@@ -66,9 +66,7 @@ export const InfoContent = styled.div`
 `;
 
 export const ButtonContainer = styled.div`
-  ${({ theme }) => css`
-    display: flex;
-  `}
+  display: flex;
 `;
 
 export const CVUAliasCard = styled.section<ModifierSizeMediaQueryProps>`

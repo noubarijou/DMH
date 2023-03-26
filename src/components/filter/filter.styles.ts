@@ -38,9 +38,7 @@ export const FilterHeader = styled.div`
       }
   `}
 `;
-export const FilterOptionList = styled.div`
-  ${({ theme }) => css``}
-`;
+export const FilterOptionList = styled.div``;
 
 export const FilterOption = styled.div`
   ${({ theme }) => css`
@@ -53,18 +51,14 @@ export const FilterOption = styled.div`
 `;
 
 export const LimparFiltros = styled.button`
-  ${({ theme }) => css`
-    display: flex;
-    background: none;
-    border: none;
-    align-items: center;
-  `}
+  display: flex;
+  background: none;
+  border: none;
+  align-items: center;
 `;
 
 export const ButtonContainer = styled.div`
-  ${({ theme }) => css`
-    display: flex;
-    justify-content: space-between;
-    margin: 30px 15px 0 15px;
-  `}
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 15px 0 15px;
 `;

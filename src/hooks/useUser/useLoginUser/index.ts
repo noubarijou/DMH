@@ -72,7 +72,7 @@ export async function loginUser(user: Omit<LoginPayload, 'login'>) {
   }
 }
 
-export const logoutUser: MutationFunction<unknown, {}> = async (args = {}) => {
+export const logoutUser: MutationFunction<unknown, {}> = async () => {
   try {
     await api.post('/api/logout');
     destroyCookie(null, '@digitalmoney:token');

@@ -1,10 +1,8 @@
 import styled, { css } from 'styled-components';
 
 export const Pagination = styled.div`
-  ${({ theme }) => css`
-    display: flex;
-    justify-content: space-around;
-  `}
+  display: flex;
+  justify-content: space-around;
 `;
 export const PaginationItem = styled.div`
   ${({ theme }) => css`

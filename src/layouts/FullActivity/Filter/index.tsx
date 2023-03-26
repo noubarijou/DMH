@@ -8,6 +8,7 @@ import * as s from './filter.styles';
 const Filter = () => {
   const [selectedOption, setSelectedOption] = useState('');
   const [selectedFilter, setSelectedFilter] = useState('');
+  console.log(selectedFilter);
 
   const handleOptionClick = (event: React.MouseEvent<HTMLOptionElement>) => {
     setSelectedOption(event.currentTarget.value);

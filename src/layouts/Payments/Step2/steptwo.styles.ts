@@ -1,9 +1,10 @@
+import styled, { css } from 'styled-components';
+
 import { ButtonWrapper } from 'components/button/button.styles';
 import { InputText } from 'components/input/input-text/input-text.styles';
-import styled, { css } from 'styled-components';
 import {
-    ModifierSizeMediaQuery,
-    ModifierSizeMediaQueryProps
+  ModifierSizeMediaQuery,
+  ModifierSizeMediaQueryProps,
 } from 'styles/modifier.style';
 
 export const BillInfoCard = styled.section<ModifierSizeMediaQueryProps>`

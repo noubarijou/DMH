@@ -47,9 +47,7 @@ export const SearchIcon = styled(AiOutlineSearch)`
     }
   `}
 `;
-export const PaymentsTable = styled(TableContainer)`
-  ${({ theme }) => css``}
-`;
+export const PaymentsTable = styled(TableContainer)``;
 export const PaymentsHeader = styled.div`
   ${({ theme }) => css`
     display: flex;

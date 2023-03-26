@@ -7,7 +7,7 @@ import { schema } from 'pages/cards/schemas';
 
 import * as s from './AddCard.styles';
 
-const AddCard = ({ handleCreateCard, setAddNewCard, isLoading }: any) => {
+const AddCard = ({ handleCreateCard, setAddNewCard }: any) => {
   const { control, watch, handleSubmit } = useForm({
     defaultValues: {
       cardNumber: '',
@@ -19,7 +19,7 @@ const AddCard = ({ handleCreateCard, setAddNewCard, isLoading }: any) => {
     mode: 'all',
   });
 
-  const functionToSubmitForm: SubmitHandler<any> = (dataForm, event) => {
+  const functionToSubmitForm: SubmitHandler<any> = (dataForm) => {
     handleCreateCard({
       cod: Number(dataForm.cardCvv),
       expiration_date: dataForm.expirationDate,

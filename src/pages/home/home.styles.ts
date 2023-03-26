@@ -18,32 +18,30 @@ export const WomanImage = styled.img`
 `;
 
 export const ContainerPage = styled.div`
-  ${({ theme }) => css`
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    position: relative;
-    overflow: hidden;
-    overflow: hidden;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  overflow: hidden;
 
-    .infos-container {
-      @media only screen and (max-width: 915px) {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 95%;
-        height: 60%;
-        padding-bottom: 10px;
-      }
+  .infos-container {
+    @media only screen and (max-width: 915px) {
       display: flex;
-      justify-content: space-between;
-      width: 70%;
-      height: 42%;
+      flex-direction: column;
+      align-items: center;
+      width: 95%;
+      height: 60%;
+      padding-bottom: 10px;
     }
-  `};
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    height: 42%;
+  }
 `;
 
 export const GreenBottomContainer = styled.div`

@@ -49,9 +49,7 @@ export const SearchIcon = styled(AiOutlineSearch)`
     }
   `}
 `;
-export const FullActivityTable = styled(TableContainer)`
-  ${({ theme }) => css``}
-`;
+export const FullActivityTable = styled(TableContainer)``;
 export const ActivityHeader = styled.div`
   ${({ theme }) => css`
     display: flex;
@@ -130,10 +128,8 @@ export const ActivityValue = styled.div`
 `;
 
 export const Pagination = styled.div`
-  ${({ theme }) => css`
-    display: flex;
-    justify-content: space-around;
-  `}
+  display: flex;
+  justify-content: space-around;
 `;
 export const PaginationItem = styled.div`
   ${({ theme }) => css`

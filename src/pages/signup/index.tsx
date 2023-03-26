@@ -49,7 +49,7 @@ const Signup = () => {
     resolver: yupResolver(schema),
   });
   const handleSignUp: SubmitHandler<SignUpPayload> = async (data) => {
-    const { confirmPassword, ...user } = data;
+    const { ...user } = data;
     const response = postUser(user, {
       onSuccess: () => {
         setIsSignedUp((prevState) => !prevState);

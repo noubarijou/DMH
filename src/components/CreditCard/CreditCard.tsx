@@ -13,7 +13,6 @@ const CreditCard = ({
   cardNumber,
   cardName,
   cardExpiration,
-  cvv,
 }: CreditCardProps) => {
   return (
     <>

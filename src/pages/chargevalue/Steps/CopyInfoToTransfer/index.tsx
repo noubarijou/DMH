@@ -4,7 +4,6 @@ import { MdOutlineContentCopy } from 'react-icons/md';
 
 import { useTheme } from 'styled-components';
 
-import { ContainerPage } from 'components';
 import { parseCookies } from 'nookies';
 
 import * as s from './transfer.styles';

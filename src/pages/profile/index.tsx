@@ -85,7 +85,7 @@ const Profile = () => {
   const handleUpdateUser: SubmitHandler<FormValues> = (data) => {
     const firstName = data.name.split(' ')[0];
     const lastName = data.name.split(' ')[1];
-    const { name, ...newData } = data;
+    const { ...newData } = data;
     updateUser(
       { ...newData, firstname: firstName, lastname: lastName },
       {

@@ -1,8 +1,4 @@
-import {
-  createGlobalStyle,
-  GlobalStyleComponent,
-  css,
-} from 'styled-components';
+import { createGlobalStyle, css } from 'styled-components';
 
 import reset from './reset';
 

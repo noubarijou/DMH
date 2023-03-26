@@ -5,7 +5,7 @@ import { api } from 'api/client';
 import { TransferenceRequest, TransferenceResponse } from './types';
 
 export async function createDeposit(payload: TransferenceRequest) {
-  const { account_id, ...rest } = payload;
+  const { ...rest } = payload;
   try {
     const { data } = await api.post<TransferenceResponse>(
       `api/accounts/${payload.account_id}/deposits`,
